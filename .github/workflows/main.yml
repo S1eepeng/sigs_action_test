@@ -1,0 +1,12 @@
+- name: cosign-installer
+  # You may pin to the exact commit or the version.
+  # uses: sigstore/cosign-installer@59acb6260d9c0ba8f4a2f9d9b48431a222b68e20
+  uses: sigstore/cosign-installer@v3.5.0
+  with:
+    # cosign release version to be installed
+    cosign-release: # optional, default is v2.2.4
+    # Where to install the cosign binary
+    install-dir: # optional, default is $HOME/.cosign
+    # set to true if install-dir location requires sudo privs
+    use-sudo: # optional, default is false
+          
