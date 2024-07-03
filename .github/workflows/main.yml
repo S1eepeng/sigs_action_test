@@ -41,7 +41,7 @@ jobs:
       uses: docker/build-push-action@v5
       id: build-and-push
       with:
-        file: ./Dockerfile
+        file: ././Dockerfile
         platforms: linux/amd64,linux/arm/v7,linux/arm64
         push: true
         provenance: false
