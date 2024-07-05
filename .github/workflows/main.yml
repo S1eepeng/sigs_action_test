@@ -10,9 +10,6 @@ jobs:
     permissions:
       id-token: write
     steps:
-      - uses: actions/checkout@v3
-      - name: install
-        run: python -m pip install sigstore-python
       - uses: sigstore/gh-action-sigstore-python@v2.1.1
         with:
           inputs: file.txt
