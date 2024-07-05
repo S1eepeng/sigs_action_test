@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: sigstore/gh-action-sigstore-python@v2.1.1
         with:
-          inputs: file.txt
+          inputs: ./file.txt
